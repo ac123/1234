@@ -30,7 +30,14 @@ h1{font-size:25px;color:#000;}
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
     background-size: cover; }
-#container{width:84%;margin:5% auto;z-index:9999999999;color:#F00;}
+#container{ position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+  z-index: 999;
+}
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
