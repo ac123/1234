@@ -37,6 +37,7 @@ h1{font-size:25px;color:#000;}
   height: 200px;
   margin: -100px 0 0 -100px;
   z-index: 999;
+  position:absolute;
 }
 
 @media (min-aspect-ratio: 16/9) {
