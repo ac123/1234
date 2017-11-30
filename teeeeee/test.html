@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<cross-domain-policy>
+   <allow-access-from domain="*" />
+</cross-domain-policy>
+
+	<title>Project</title>
+	<!-- <script src="//mywebsite.com/jwplayer/jwplayer.js"></script> -->
+	<script src="http://content.jwplatform.com/players/W4NQ4PRb-oq62CMwV.js"></script>	
+	<script>jwplayer.key="bGBUchMqsl6nl0l7YDZ/l58S4PYf5HTlI16jkjbP9uFK5masoDHX7gv1rvU="</script>
+
+
+</head>
+<body>
+<div id="myElement"></div>
+<script type="text/javaScript">
+var playerInstance = jwplayer("myElement");
+playerInstance.setup({
+    file: "http://content.jwplatform.com/videos/MEDIAID-TEMPLATEID.mp4"
+    mediaid: "xxxxYYYY"
+});
+</script>
+</body>
+</html>
