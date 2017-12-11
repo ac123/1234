@@ -1,6 +1,9 @@
 *{margin:0;padding:0;}
 body{font-family: Helvetica,Arial;color:#000;background:#2B2B2B;}
-h1{font-size:25px;color:#DE1B1B;}
+h1{    font-size: 57px;
+    color: #DE1B1B;
+    letter-spacing: -6px;
+    line-height: 35px;}
 .bg-one{
   background:#2B2B2B;
 }
@@ -35,14 +38,15 @@ h2{color:#E9E581;}
 //     transform: translateX(-50%) translateY(-50%);
 //     background: url(polina.jpg) no-repeat;
 //     background-size: cover; }
-#container{ position: absolute;
+#container{
   top: 50%;
   left: 50%;
-  width: 200px;
-  height: 200px;
-  margin: -100px 0 0 -100px;
+  width: 400px;
+  height: 400px;
+  margin: -200px 0 0 -200px;
   z-index: 999;
-  position:absolute;
+  position: absolute;
+  text-align: center;
 }
 
 // @media (min-aspect-ratio: 16/9) {
