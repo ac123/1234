@@ -12,6 +12,7 @@ h2{
   color:#E9E581;
   margin-top: 14px;
   line-height: 15px;
+  letter-spacing:-0.03em;
 }
 p.left{
     position: fixed;
