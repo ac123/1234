@@ -8,6 +8,9 @@ h1{    font-size: 57px;
   background:#2B2B2B;
 }
 p{color:#F6F6F6;}
+.under{
+  margin-top{margin-top:15px;}
+}
 h2{
   color:#E9E581;
   margin-top: 14px;
@@ -41,12 +44,12 @@ a{
 a:hover{
   color:#de1b1b;
   text-decoration:underline;
-  -o-transition:color .2s ease-out;
-  -ms-transition:color .2s ease-out;
-  -moz-transition:color .2s ease-out;
-  -webkit-transition:color .2s ease-out;
+  -o-transition:color .5s ease-out;
+  -ms-transition:color .5s ease-out;
+  -moz-transition:color .5s ease-out;
+  -webkit-transition:color .5s ease-out;
   /* ...and now override with proper CSS property */
-  transition:color .2s ease-out;
+  transition:color .5s ease-out;
 
 }
 
