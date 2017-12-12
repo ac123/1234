@@ -1,5 +1,5 @@
 *{margin:0;padding:0;}
-body{font-family: Helvetica,Arial;color:#000;background:#2B2B2B;}
+body{font-family: Raleway,Helvetica,Arial;color:#000;background:#2B2B2B;}
 h1{    font-size: 57px;
     color: #DE1B1B;
     letter-spacing: -6px;
@@ -31,7 +31,7 @@ p.right{
   right:100px;
 }
 .bottom{
-  font-family: helvetica;
+  font-family: Raleway;
   font-size:15px;
 }
 a{
