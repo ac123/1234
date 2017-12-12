@@ -17,14 +17,17 @@ h2{
   line-height: 15px;
   letter-spacing:-0.03em;
 }
+.bottom-line{
+
+}
 p.left{
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     left: 100px;
 }
 p.right{
   position:fixed;
-  bottom:20px;
+  bottom:50px;
   right:100px;
 }
 .bottom{
