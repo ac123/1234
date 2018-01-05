@@ -1,0 +1,11 @@
+{
+  "name": "YarnTest",
+  "version": "0.0.1",
+  "description": "test yarn package",
+  "main": "index.js",
+  "author": "adam",
+  "license": "MIT",
+  "dependencies": {
+    "map-reverse": "^1.0.1"
+  }
+}
